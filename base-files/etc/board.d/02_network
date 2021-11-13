@@ -11,6 +11,7 @@ board=$(board_name)
 
 case "$board" in
 amedia,x96air |\
+meson-gxl-s905x,p212 |\
 phicomm,n1)
 	ucidef_set_interface_lan "eth0"
 	;;
